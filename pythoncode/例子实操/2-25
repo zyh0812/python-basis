@@ -1,0 +1,69 @@
+#bicycles = ['trek','cannondale','redline','specialized']
+# print(bicycles[0])
+# print(bicycles[0].title())
+# print(bicycles[1].title())
+# print(bicycles[3].title())
+# print(bicycles[-1].title())
+
+# message = f"My first bicycle was a {bicycles[0].title()}"
+# # print(message)
+# motorcycles = ['honda','yamaha','zusuki']
+# # print(motorcycles)
+# # motorcycles[0] = 'ducati'
+# # print(motorcycles)
+# motorcycles.append('ducati')
+# print(motorcycles)
+
+# motorcycles = []
+# motorcycles.append('honda')
+# motorcycles.append('yamaha')
+# motorcycles.append('zusuki')
+# print(motorcycles)
+# motorcycles.insert(0,'ducati')
+# print(motorcycles)
+# del motorcycles[0]
+# del motorcycles[1]
+# print(motorcycles)
+
+# popped_motorcycle = motorcycles.pop()
+# print(motorcycles)
+# print(popped_motorcycle)
+
+# last_owned = motorcycles.pop()
+# print(f"The last motorcycle I owned was a {last_owned.title()}")
+
+# first_owned = motorcycles.pop(1)
+# print(f"The first motorcycle I owned was a {first_owned.title()}")
+
+# motorcycles = ['honda','yamaha','suzuki','ducati']
+# # print(motorcycles)
+# # motorcycles.remove('ducati')
+# # print(motorcycles)
+# print(motorcycles)
+# too_expensive = 'ducati'
+# motorcycles.remove(too_expensive)
+# print(motorcycles)
+# print(f"\nA {too_expensive.title()} is too expensive for me.")
+
+# cars = ['bmw','audi','toyata','subaru']
+# cars.sort()
+# cars.sort(reverse=True)
+# print(cars)
+
+# print("Here is the original list:")
+# print(cars)
+# print("\nHere is the sorted list:")
+# print(sorted(cars))
+# print("\nHere is the original list again:")
+# print(cars)
+# print(cars)
+# cars.reverse()
+# print(cars)
+# print(len(cars))
+
+#第四章操作列表
+# magicians = ['alice','david','carolina']
+# # for magician in magicians:
+# #     print(magician)
+# for magician in magicians:
+#     print(f"{magicians.title()},that was a great trick!")
